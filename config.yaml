@@ -4,7 +4,7 @@ subject: 'cat:cs.*'
 # 検索キーワード
 keywords:
         kaggle: 2
-        natural language preprocessing: 3
+        natural language processing: 3
         reinforcement learning: 3
         anomaly detection: 1
 
