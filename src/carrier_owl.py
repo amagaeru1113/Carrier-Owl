@@ -41,7 +41,7 @@ def calc_score(abst: str, keywords: dict) -> (float, list):
 
 def search_keyword(
         articles: list, keywords: dict, score_threshold: float
-        ) -> list:
+) -> list:
     results = []
 
     for article in articles:
@@ -56,8 +56,8 @@ def search_keyword(
             abstract_trans = textwrap.wrap(abstract_trans, 40)  # 40行で改行
             abstract_trans = '\n'.join(abstract_trans)
             result = Result(
-                    url=url, title=title_trans, abstract=abstract_trans,
-                    score=score, words=hit_keywords)
+                url=url, title=title_trans, abstract=abstract_trans,
+                score=score, words=hit_keywords)
             results.append(result)
     return results
 

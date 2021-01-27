@@ -3,8 +3,9 @@ subject: 'cat:cs.*'
 
 # 検索キーワード
 keywords:
-        kaggle: 3
-        resnet: 3
+        kaggle: 2
+        natural language preprocessing: 3
+        reinforcement learning: 3
         anomaly detection: 1
 
 # 通知の閾値
